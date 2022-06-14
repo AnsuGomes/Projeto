@@ -1,28 +1,7 @@
  #titulo{
-    color: blue;
-    font-size: 25px;
-}
+     background-color: rgb(200, 0, 50);
 
-.texto{  /*class do ELEMENTO */
-    color: blue;
-    font-size: 25px;
-} 
- /*
- #titulo, .texto {   aqui os dois terão as mesmas cores
-     color: blue;
-     font-size: 25px;
+     /* ou então assim
+    background-color: #FF00FF (NUMBERS HEXADECIMAIS) */ 
+
  }
-
-#titulo {
-    font-weight: normal;
-}
-.texto {
-    font-weight: bold;
-}
-*/
-
-/*
-Um dentro de outro
-ol li{    -- sem a virgula
-    color: pink;
-} */    
