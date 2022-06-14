@@ -1,10 +1,14 @@
-.texto{
-    border: 5px solid green;
-    padding: 10px;
-    margin: 10px;
+body{
+    margin: 0px;
+}
 
-    /* ou então
-    padding: 10px 50px 10px 50px;
-    ordem horaria*
-    */
+.texto{
+    background-color: black;
+    width:500px;
+    height:500px;
+}
+
+img{
+    min-width:500px;
+    width:100px;
 }
