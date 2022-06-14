@@ -1,17 +1,28 @@
-h1 {
-    color:blue;
-    font-size: 15px;
-}
-a{
-    color: aquamarine;
-    font-size: 30px;
+ #titulo{
+    color: blue;
+    font-size: 25px;
 }
 
-img{
-    width: 200px;
-}
+.texto{  /*class do ELEMENTO */
+    color: blue;
+    font-size: 25px;
+} 
+ /*
+ #titulo, .texto {   aqui os dois terão as mesmas cores
+     color: blue;
+     font-size: 25px;
+ }
 
-li{
+#titulo {
+    font-weight: normal;
+}
+.texto {
     font-weight: bold;
-    color: blueviolet;
 }
+*/
+
+/*
+Um dentro de outro
+ol li{    -- sem a virgula
+    color: pink;
+} */    
