@@ -11,11 +11,11 @@ p {
     color: blueviolet;
     font-size: 15px;
     font-weight: bold; /* negrito */
-    font-family: Arial; /* fonte */
-    text-align: center; /*alinhamento do texto: right, left, justify (justificado) */
-    text-transform: uppercase; /* CAIXA ALTA= LETRAS MAIUSCULAS */
-    /* text-transform: lowercase; -- LETRAS MINUSCULAS */
-    line-height: 20px; /* ALTURA DA LINHA */
-    text-shadow: 0px 2px 3px red; /* sombra */
+    font-family: 'Chilanka';
+   
+}
+
+h1{
+    font-family: 'Chilanka';
 }
 
