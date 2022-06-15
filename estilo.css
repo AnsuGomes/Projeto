@@ -3,7 +3,21 @@
 }
 
 body{
-    font-size: 50px;
-    margin: 0px;
+    margin: 50px;
+    font-size: 17px;
 }
 
+p {
+    color: green;
+    font-size: 20px;
+    font-weight: bold; /* negrito */
+    font-family: Arial; /* fonte */
+    text-align: center; /*alinhamento do texto: right, left, justify (justificado) */
+}
+
+a{
+    text-decoration: none; /* sem o _ do texto */
+}
+a:hover{
+    text-decoration: underline; /* só vai aparecer o underline se passar o mouse por cima */
+}
