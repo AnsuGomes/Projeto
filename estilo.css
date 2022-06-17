@@ -7,15 +7,26 @@ body{
     font-size: 17px;
 }
 
-p {
-    color: blueviolet;
-    font-size: 15px;
-    font-weight: bold; /* negrito */
-    font-family: 'Chilanka';
-   
-}
-
 h1{
     font-family: 'Chilanka';
 }
+table thead{
+    background-color: green;
+}
+table{
+    width: 600px;
+    border: 1px solid black;
+}
 
+table tbody{
+    background-color: rebeccapurple;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody tr:hover{
+    background-color: #EEE;
+}
