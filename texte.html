@@ -21,6 +21,14 @@
                 <label>
                     Sobrenome: <br/>
                     <input type="text" name="lastname" required/>
+                </label><br/>
+                <label>
+                    E-mail: <br/>
+                    <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereco de email"/>
+                </label><br/>
+                <label>
+                    Idade: <br/>
+                    <input type="number" name="age" min="18" max="120"/>
                 </label>
             </fieldset>
 
