@@ -8,9 +8,9 @@
     </head>
     <body>
         <h1>Mini curso de HTML e CSS.</h1>
-        <form method="GET" action="blabla.php">
+        <form method="GET" action="blabla.php" enctype="multipart/form-data">  <!--Para receber os arquivo-->
 
-            <input type="hidden" name="country" value="br" />
+            <input type="hidden" name="country" value="br" /> <!--Hidden é um campo invisivel-->
 
             <fieldset>
                 <legend>Dados pessoais</legend>
@@ -22,7 +22,11 @@
                     Sobrenome: <br/>
                     <input type="text" name="lastname" required/>
                 </label><br/>
-                
+                <label>
+                    Foto: <br/>
+                    <input type="file" name="photo" accept="image/*"/>
+                </label><br/>
+
             </fieldset>
 
             <fieldset>
