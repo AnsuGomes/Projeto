@@ -15,18 +15,30 @@
         <form action="paginas/login.html" method="get">
             
 
-            <label for="nome">Nome completo:</label><br/>
-            <input type="text" name="nome" id="nome"/>
-
-            <br/><br/>
-
-            <!--Não precisa clicar na caixinha para selecionar ou no campo para digitar. Pode clicar na frase.-->
-            <!-- Ou então colocar o INPUT dentro do LABEL-->
             <label>
-                <input type="checkbox" id="teste" />
-                Li e aceito os termos.
+                Nome completo:<br/>
+                <input type="text" name="nome"/>
+            </label>
+
+            <label>
+                Descrição: <br/>
+                <textarea name="descricao"></textarea>
             </label>
             
+            <label>
+                Categoria: <br/>
+                <select name="categoria">
+                    <option value="1">Categoria 1</option>
+                    <option value="2">Categoria 2</option>
+                    <option value="3">Categoria 3</option>
+                </select>    
+            </label>
+            
+            <label>
+                <input type="checkbox" />
+                Li e aceito os <a href="paginas/termos.html" target="_blank" > termo de uso.</a>
+            </label>
+
 
             <br/>
             <button>Fazer cadastro</button>
