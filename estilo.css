@@ -12,10 +12,35 @@ h1{
 }
 label{
     display: block;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-input [type=text]{
+input[type=text], textarea, select{
     padding: 10px;
     width: 500px;
+    font-size: 15px;
+    border: 1px solid green;
+    outline: 0;
+    margin-top: 5px;
+}
+
+textarea{
+    height: 200px;
+    resize: none;  /* a pessoa não pode editar o tamanho do campo */
+}
+
+.termoslink{
+    color: black;
+    text-decoration: none; /*Tira o visualizacao do link, mas se passar o mouse a gente ver */
+}
+
+.termoslink:hover {
+    text-decoration: underline; /*Se passar o mouse, terá uma sublinhacao do link */
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid purple;
+    background-color: rgb(20, 240, 240);
 }
