@@ -14,12 +14,21 @@
         <h2>Área de cadastro</h2>
         <form action="paginas/login.html" method="get">
             
-            <input type="text" name="nome" />
+
+            <label for="nome">Nome completo:</label><br/>
+            <input type="text" name="nome" id="nome"/>
+
+            <br/><br/>
+
+            <!--Não precisa clicar na caixinha para selecionar ou no campo para digitar. Pode clicar na frase.-->
+            <!-- Ou então colocar o INPUT dentro do LABEL-->
+            <label>
+                <input type="checkbox" id="teste" />
+                Li e aceito os termos.
+            </label>
             
 
             <br/>
-            <!-- SUBMIT ou BUTTON para enviar os dados atraves do botão 
-            <input type="submit" value="Fazer cadastro"/> -->
             <button>Fazer cadastro</button>
             
 
