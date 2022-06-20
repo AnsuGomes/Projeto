@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8"/> <!-- Identificar acentuação-->
-    <title>Página de teste</title>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>   
+        <link rel="stylesheet" href="estilo.css" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Mini curso de HTML e CSS.</h1>
+        <form method="GET" action="blabla.php">
 
-</head>
-<body>Testando 1,2,3</body>
+            <input type="hidden" name="country" value="br" />
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>
+                    Primeiro nome: <br/>
+                    <input type="text" name="name" required minlength="2"/> <!--REQUIRED: Obrigarorio o nome || MINLENGTH: Tamanho minimo--> 
+                </label> <br/>
+                <label>
+                    Sobrenome: <br/>
+                    <input type="text" name="lastname" required/>
+                </label><br/>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados empresariais</legend>
+                <label>
+                    Nome da empresa: <br/>
+                    <input type="text" name="companyname"/>
+                </label><br/>
+                <label>
+                    Cargo: <br/>
+                    <input type="text" name="companyjobtitle"/>
+                </label>
+            </fieldset>
+            <br/>
+            <input type="submit" value="Cadastrar" />
+        </form>
+        
+        
+    </body>       
 </html>
