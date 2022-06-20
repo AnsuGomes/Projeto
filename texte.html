@@ -14,15 +14,28 @@
         <h2>Área de cadastro</h2>
         <form action="paginas/login.html" method="get">
             
-            <input type="color" name="usuario"/>  <!--Abre uma palheta de cores--> <br/><br/>
+            <select name="order">
+                <option></option>  <!-- Vai vir sem branco para voce mesmo escolher o item-->
+                <option value="bestseller">Mais vendidos</option>
+                <option value="last" >Recentes</option>  
 
-            <input type="date" name="usuario"/>  <!--Mostra para escolher a data-->
+                <!-- Vai vir selecionado o "Recentes"
 
-            <input type="number" name="usuario"/>  <!--Apenas numeros--> <br/><br/>
+                <option value="bestseller">Mais vendidos</option>
+                <option value="last" selected>Recentes</option>
 
-            <input type="range" name="usuario"/>  <!--De tanto a tanto, como se fosse um volume--> <br/><br/>
+                -->
+                
+            </select> <br/><br/>
 
-            <input type="url" name="usuario"/>  <!--link--> <br/><br/>
+            <select name="order" size="2" multiple> <!--So segurar o CTRL para selecionar os itens-->
+                <option value="bestseller">Mais vendidos</option>
+                <option value="last" >Recentes</option>
+
+
+            </select>
+
+
 
             <input type="submit" value="Fazer cadastro"/>
             
