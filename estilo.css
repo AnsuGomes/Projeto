@@ -2,11 +2,8 @@ body{
     margin: 0;
 }
 
-body.container{
-    color: gray;
-}
-
 .container{
-    color: blueviolet;
+    background-color: gray;
+    width: 300px;
+    height: 300px;
 }
- /* CSS funciona de cima para baixo, mas nem sempre a especifidade dará certo */ 
