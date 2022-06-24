@@ -1,9 +1,9 @@
-body{
-    margin: 0;
+.box{
+    font-size: 20px;
 }
 
-.container{
-    background-color: gray;
-    width: 300px;
-    height: 300px;
+.box-interno{
+    width: 10em;  /* 1em = 20px; 2em = 40px; */ /* A medida do EM está ligada ao (box) */
+    height: 10em;
+    background-color: palevioletred;
 }
