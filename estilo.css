@@ -1,9 +1,14 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .box{
-    font-size: 20px;
+    background-color: #999;
+    width: 300px;
 }
 
 .box-interno{
-    width: 10em;  /* 1em = 20px; 2em = 40px; */ /* A medida do EM está ligada ao (box) */
-    height: 10em;
-    background-color: palevioletred;
+    background-color: #333;
+    width: 15ch; /* CH = UNIDADE DE CARACTERE - A fonte monospace cabe dentro (mesmos espacamentos das letras) */
+    color: white;
 }
