@@ -8,41 +8,10 @@
     </head>
     <body>
         <h1>Mini curso de HTML e CSS.</h1>
-        <form method="GET" action="blabla.php" enctype="multipart/form-data">  <!--Para receber os arquivo-->
+        <div class="container">
+            Este é um <strong>texto</strong> qualquer.
 
-            <input type="hidden" name="country" value="br" /> <!--Hidden é um campo invisivel-->
-
-            <fieldset>
-                <legend>Dados pessoais</legend>
-                <label>
-                    Primeiro nome: <br/>
-                    <input type="text" name="name" required minlength="2"/> <!--REQUIRED: Obrigarorio o nome || MINLENGTH: Tamanho minimo--> 
-                </label> <br/>
-                <label>
-                    Sobrenome: <br/>
-                    <input type="text" name="lastname" required/>
-                </label><br/>
-                <label>
-                    Foto: <br/>
-                    <input type="file" name="photo" accept="image/*"/>
-                </label><br/>
-
-            </fieldset>
-
-            <fieldset>
-                <legend>Dados empresariais</legend>
-                <label>
-                    Nome da empresa: <br/>
-                    <input type="text" name="companyname"/>
-                </label><br/>
-                <label>
-                    Cargo: <br/>
-                    <input type="text" name="companyjobtitle"/>
-                </label>
-            </fieldset>
-            <br/>
-            <input type="submit" value="Cadastrar" />
-        </form>
+        </div>
         
         
     </body>       

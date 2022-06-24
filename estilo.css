@@ -1,11 +1,19 @@
-fieldset{
-    background-color: #EEE;
-    margin-bottom: 20px;
-    border: 1px solid palevioletred;
+body{
+    margin: 0;
 }
 
-legend{
-    background-color: rgb(23, 243, 232);
-    color: #FFF;
-    padding: 5px;
+/* HERANÇA =  BASICAMENTE O QUE PODE SER HERDADO SÃO OS TEXTOS   */
+
+.container{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: antiquewhite;
+    color: blue;
+
+    font-size: 40px;
+    border: 3px solid green;
+}
+.container strong{  /* Aqui é para apenas o strong */
+    border: 3PX solid black;
+    color: blueviolet;
 }
