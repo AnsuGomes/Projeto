@@ -1,14 +1,5 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .box{
     background-color: #999;
-    width: 300px;
+    height: 100vh;
 }
 
-.box-interno{
-    background-color: #333;
-    width: 15ch; /* CH = UNIDADE DE CARACTERE - A fonte monospace cabe dentro (mesmos espacamentos das letras) */
-    color: white;
-}
