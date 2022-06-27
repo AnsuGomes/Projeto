@@ -1,11 +1,7 @@
 body{
     margin: 0;
+    background-color: rgb(255, 0, 255);
+    /* Algumas cores podem ser definidas pelo nome delas. */
+    /* Outra por Hexadecimal : #FFFFFF */
 }
 
-.box{
-    font-size: 15px;
-}
-
-h1{font-size: 30px;}
-
-.box h1{ font-size: inherit; /* font-size: 15px */;}
