@@ -1,7 +1,6 @@
-body{
-    margin: 0;
-    background-color: rgb(255, 0, 255);
-    /* Algumas cores podem ser definidas pelo nome delas. */
-    /* Outra por Hexadecimal : #FFFFFF */
-}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover; /* contain, fill, none, scale-down */
 
+}
