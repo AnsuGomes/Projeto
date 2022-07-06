@@ -2,30 +2,16 @@ body{
     background-color: blueviolet;
 }
 
-@media(min-width: 1000px){
-    body{
-        background-color: aqua;
-    }
+h1{
+    font-size: 40px;
+    font-weight: bold;
 }
 
-
-@media(min-width: 700px) and (max-width: 1000px){
-    body{
-        background-color: purple;
-    }
-}
-
-@media(min-width: 300px) and (max-width: 700px){
-    body{
-        background-color: rosybrown;
-    }
-}
-
-@media (max-width: 600px){
-    body{
-        background-color: green;
-    }
+@media only print {
     h1{
-        font-size: 15px;
+        font-size: 70px;
+        font-weight: normal;
     }
+
 }
+
