@@ -1,8 +1,11 @@
 body{
     margin: 0;
 }
-.container{
-    width: calc(100% - 25px);
-    height: 200px;
-    background-color: #CCC;
+nav{
+    height: 50px;
+    background-color: #999999;
+}
+footer{
+    height: 100px;
+    background-color: #CCCCCC;
 }
