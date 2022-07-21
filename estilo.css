@@ -1,3 +1,8 @@
-img{
-    width: max(50%, 300px);
+body{
+    margin: 0;
+}
+.container{
+    width: calc(100% - 25px);
+    height: 200px;
+    background-color: #CCC;
 }
