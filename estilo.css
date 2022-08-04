@@ -2,19 +2,10 @@ body{
     margin: 0;
 }
 
-#teste{
-    background-color: green;
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 200px;
+.exemplo{
+    width: 500px;
     height: 200px;
-    border-radius: 10px; 
-   /*  ou assim:
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;  */
-
-   /* border-radius: 100px; = bola */
+    background-color: aliceblue;
+    background: linear-gradient(blue, yellow);
 }
 
