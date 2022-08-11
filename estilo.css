@@ -3,22 +3,8 @@ body{
 }
 
 .exemplo{
-    width: 150px;
+    width: 190px;
     height: 150px;
-    background-color: green;
-    margin: auto;
-    margin-top: 100px;
-    transition: all 0.3s linear; /* TEMPO */
-} 
-.exemplo:hover{
-    width: 300px;
-    background-color: blue;
+    border: 1px solid #000;
+    word-wrap: break-word; /* Coloca as words dentro do container */
 }
-a{
-    color: blue(21, 231, 32);
-}
-
-a:hover{
-    color: rgb(250, 8, 189);
-}
-
