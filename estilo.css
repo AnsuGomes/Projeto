@@ -17,7 +17,16 @@ aside{
     background-color: grey;
 }
 
+main{
+    flex: 1;
+    background-color: #999;
+}
 footer{
     background-color: #d3d3d3;
     min-height: 100px;
 }
+address{
+    color: rgb(252, 35, 169);
+    font-style: normal;
+}
+
