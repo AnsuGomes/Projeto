@@ -2,7 +2,22 @@ body{
     margin: 0;
 }
 
-p{
-    color: blue;
-    font-style:  italic;
+header{
+    background-color: #d3d3d3;
+    min-height: 100px;
+}
+
+.container{
+    display: flex;
+    min-height: 600px;
+}
+
+aside{
+    width: 200px;
+    background-color: grey;
+}
+
+footer{
+    background-color: #d3d3d3;
+    min-height: 100px;
 }
