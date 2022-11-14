@@ -1,18 +1,35 @@
-figure{
-    padding: 2px;
-    margin-top: 0;
-    border: 1px solid #ccc;
-    width: 200px;
-    height: 271px;
+.container{
+    display: flex;
+    background-color: #f3dddd;
+    margin: 10px;
+}
+.div1{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px ;
 }
 
-figcaption{
-    background-color: aquamarine;
-    color: black;
-    padding: 2px;
+.div2{
+    flex: 1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px ;
 }
 
-img{
-    width: 200px;
+ .div3{
+    flex: 12;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px ;
 }
-
+.div4{
+    flex: 10;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px ;
+}
